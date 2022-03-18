@@ -1,4 +1,4 @@
-  #  ****Wine type prediction: Project Overview****
+  #  ****Wine quality prediction: Project Overview****
 
 - Predicted the quality of a wine based on physicochemical properties of wine.
 - Visualized relationship between different features.
