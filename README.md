@@ -29,5 +29,3 @@ The Random Forest model far outperformed the other approaches on the test and va
 - RandomForestClassifier: 0.77
 - XGBoost: 0.79
 - RandomForestClassifier with GridSearchCV: 0.81
-
- #  ****Results****
