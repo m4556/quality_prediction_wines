@@ -1,10 +1,10 @@
   #  ****Wine type prediction: Project Overview****
 
-- Created wine type prediction model based on physicochemical properties of wine
-- Visualized relationship between different features
-- Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model.
+- Predicted the quality of a wine based on physicochemical properties of wine.
+- Visualized relationship between different features.
+- Optimized different tree based models using GridsearchCV to reach the best model.
 
- # ****Understanding data features****
+ # ****Data features****
 
 There are 1599 samples of red wine and 4898 samples of white wine in the data sets. Each wine sample has the following characteristics :
 
@@ -21,8 +21,6 @@ There are 1599 samples of red wine and 4898 samples of white wine in the data se
 11. Alcohol
 12. Quality (score between 0 and 10)
 
- #  ****Model Building**** 
-
  #  ****Model performance**** 
 
 The Random Forest model far outperformed the other approaches on the test and validation sets.
@@ -33,5 +31,3 @@ The Random Forest model far outperformed the other approaches on the test and va
 - RandomForestClassifier with GridSearchCV: 0.81
 
  #  ****Results****
-
-Appendix ****Domain knowledge****
